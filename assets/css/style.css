@@ -1,0 +1,136 @@
+
+*{
+    scroll-behavior: smooth !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.slides  h1 {
+    text-transform: capitalize !important;
+}
+
+.appointment-form select {
+    width: 100%;
+    border: 1px solid #e0e0e0 !important;
+    color: #929292 !important;
+    padding: 10px 15px;
+    font-size: 15.6px;
+}
+
+.appointment-form select option{
+    padding: 10px 0px !important;
+
+}
+
+.appointment-form select:focus {
+    outline: none;
+}
+
+.customarrow {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+   
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, 50%);
+}
+
+.prevs, .nexts {
+    border: 1px solid #c9c9c9;
+    box-shadow: 0px 0px 3px 0px #8f8f8f;
+    padding: 6px 13px;
+    border-radius: 50%;
+    display: block;
+}
+
+.slides button {
+    display: none !important;
+}
+
+.appointment-form input{
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 0 !important;
+    color: #929292 !important;
+    padding: 20px 15px !important;
+    font-size: 16px;
+}
+    
+
+.appointment-form input:focus{
+box-shadow: none !important;
+border: 1px solid #e0e0e0 !important;
+
+}
+
+.appointment-form input::placeholder{
+    color: #929292 !important;
+    font-size: 16px;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+
+form span {
+    font-size: 14px;
+    font-weight: 600 !important;
+    color: rgba(255, 0, 0, 0.619);
+    position: absolute;
+    font-style: italic;
+}
+
+.appointment-form button {
+    width: 100%;
+    padding: 8px 0px;
+    background-color: #003e7d;
+    color: #fff;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    border: none;
+    font-size: 15px !important;
+}
+
+.box {
+    position: fixed;
+     z-index: 9999;
+      bottom: 10%;
+       right: 5%;
+}
+
+.chat-icon {
+    color: #25d366;
+}
+
+.contact-from {
+        max-width: 55.33333% !important;
+}
+
+
+
+
+/* @media screen and (max-width : 992px) {
+    .navbar  {
+        position: absolute;
+        top: 115px;
+        left: 0;
+        height: 100vh;
+        z-index: 9999;
+        width: 50%;
+    }
+} */
